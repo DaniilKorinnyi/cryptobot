@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Crypto_bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("AP_Cryptocurrency.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex-direction: row-reverse; /* Зміна порядку елементів на правий */
+        }
+
+        .list-counter-square {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .list-counter-square>li {
+            position: relative;
+            display: block;
+            margin-bottom: .25rem;
+            padding: .325rem .825rem .325rem 1.325rem;
+            color: #fff;
+            background: #37a046;
+            text-align: center; /* Відцентрування тексту */
+        }
+
+        .list-counter-square>li:last-child {
+            margin-bottom: 0;
+        }
+
+        .list-counter-square>li::before {
+            content: "";
+            position: center;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 0.5rem;
+            background: #37a046;
+        }
+
+        .header-h1 {
+            position: relative;
+            margin-bottom: .5rem;
+            text-align: center;
+        }
+
+        .header-h1 h1 {
+            display: inline-block;
+            background: #fff;
+            margin-bottom: 0;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            padding: .5rem 1.5rem;
+            border: .125rem solid #37a046;
+            color: #37a046;
+            text-decoration: none; /* Відключення підкреслення */
+        }
+
+        .header-h1 h1::after {
+            content: "";
+            position: absolute;
+            background: #37a046;
+            height: .125rem;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+            z-index: -999;
+        }
+
+        .header-h1-dark h1 {
+            background: #37a046;
+            color: #fff;
+        }
+
+        .bot-image {
+            width: 40%;
+            text-align: center;
+        }
+
+        .bot-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center; /* Відцентрування кнопки */
+            margin-top: 1rem; /* Зсув кнопки вниз */
+        }
+
+        .button-container a {
+            display: inline-block;
+            background: #fff;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            padding: .5rem 1.5rem;
+            border: .125rem solid #37a046;
+            color: #37a046;
+            text-decoration: none; /* Відключення підкреслення */
+            border-radius: 10px;
+            margin-left: 1rem; /* Зсув кнопки вправо */
+        }
+
+        .button-container a:hover {
+            background: #37a046;
+            color: #fff;
+        }
+        .all-container {
+            margin-left: 8rem
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="bot-image">
+            <img src="iphone-mockup.png" alt="Зображення чат-боту">
+        </div>
+    <div class="all-container">
+        <div class="description">
+            <div class="header-h1">
+                <h1>СryptoBot</h1>
+            </div>
+            <ol class="list-counter-square">
+                <li>Find out the most current price of any cryptocurrency</li>
+                <li>Convert easily and quickly</li>
+                <li>Create your own portfolio of your favourite coins</li>
+                <li>Follow the news in the world of cryptocurrencies!</li>
+            </ol>
+            <div class="button-container">
+                <a href="https://t.me/cryp19_bot" class="header-h1" target="_blank">Перейти до чат-боту</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <!-- Нижній блок, можна додати копірайт або посилання на соціальні мережі -->
+        <p>© 2023 Всі права захищені.</p>
+    </footer>
+</body>
+</html>
